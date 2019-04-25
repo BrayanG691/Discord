@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+@import url('https://fonts.googleapis.com/css?family=ABeeZee:400i');
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 @import url('https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css');
 ::selection {background:var(--main-color-faded) !important;}
@@ -281,6 +281,7 @@ body::before {
 	left: 5px;
 	width: 100vw;
 	font-family:'ABeeZee';
+	font-style: italic;
 	color: rgba(255,255,255,0.8);
 	font-size: 19px;
 	font-weight:bold;
