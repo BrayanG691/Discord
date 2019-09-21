@@ -4444,6 +4444,16 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .emptyIconStreamerMode-3RfWOW,
 .noResultsImage-JbSWtu {
     opacity:.6;
+	#app-mount .sidebarRegionScroller-3MXcoP,
+#app-mount .contentRegionScroller-26nc1e,
+#app-mount .gameLibrary-TTDw4Y .scroller-1IIF0A, 
+#app-mount .applicationStore-1pNvnv .scroller-9moviB, 
+#app-mount .friendsTable-133bsv .friendsTableBody-1ZhKif,
+#app-mount .messagesPopout-24nkyi,
+#app-mount .privateChannels-1nO12o .scroller-1JbKMe,
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN,
+#app-mount .chat-3bRxxu .messages-3amgkR {
+    background: transparent
 }
 /*Made with ♥ by Tropical and the Derealised Community.
 Also, Thank you DevilBro, for letting me use his SVG's to improve the theme!*/
