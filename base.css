@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=ABeeZee:400i');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 @import url('https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css');
 ::selection {background:var(--main-color-faded) !important;}
@@ -12,18 +12,14 @@
 | $$  | $$|  $$$$$$/| $$      |  $$$$$$/| $$     |  $$$$$$$
 |__/  |__/ \______/ |__/       \______/ |__/      \_______/
 	       		By Tropical
-
 TABLE OF CONTENTS
-
 1. Background and Sizing
   1.a. Main Background
   1.b. Spacing
   1.c. General Transparency
   1.d. Light Mode Blocker
-
 2. Titlebar
   2.a. Main Titlebar
-
 3. Chat
   3.a. Messages and Codeblocks
   3.b. Dividers
@@ -42,7 +38,6 @@ TABLE OF CONTENTS
   3.o. Calls
   3.p. Typing Indicators
   3.q. Tags
-
 4. Channels Area
   4.a. Channels
   4.b. Account Details Container
@@ -51,7 +46,6 @@ TABLE OF CONTENTS
   4.e. Private Channels Icons
   4.f. Channel Notice
   4.g. Categories
-
 5. Guilds
   5.a. Wrapper
   5.b. Add/Create Guilds Button
@@ -62,12 +56,10 @@ TABLE OF CONTENTS
   5.b. Canary Add Guilds
   5.c. Canary Unread Ind.
   5.d. Canary HomeIcon
-
 6. Members List
   6.a. Transparency
   6.b. Selected and Hovered Content
   6.c. User Status
-
 7. Popups and Dropdowns
   7.a. Server Dropdown
   7.b. Status Picker
@@ -82,7 +74,6 @@ TABLE OF CONTENTS
   7.k. RTC Connection Popout
   7.l. Toasts
   7.m. @Everyone Popout
-
 8. Modals
   8.a. Transparency
   8.b. Upload Modal
@@ -93,7 +84,6 @@ TABLE OF CONTENTS
   8.g. Reactions Modal
   8.h. Profile Modal
   8.i. Download Apps Screen
-
 9. Settings
   9.a. Transparency and Sidebar
   9.b. Buttons and Checkboxes and Switches
@@ -116,21 +106,17 @@ TABLE OF CONTENTS
   9.s. Server Settings
   9.t. Ace CSS Editor
   9.u. Changelog
-
 10. Tag Animations (Animations by EllexideCodes, added here for support on tags.)
    10. Keyframes
-
 11. Store, Activity, Library, Friends and Server Discovery
   11.a. Store
   11.b. Activity
   11.c. Library
   11.d. Friends
-
 12. Out of app areas
   12.a. Login Screen
   12.b. Crash Screen
   12.c. Loading Screen
-
 13. Plugins
   13.a. Theme and Pluginrepo
   13.b. BetterFormattingRedux
@@ -143,9 +129,7 @@ TABLE OF CONTENTS
   13.i. Permissions Viewer
   13.j. StatusEverywhere
   13.k. Date Viewer
-
 14. Roundness
-
 15. Overwrite Grey SVG's
 */
 
@@ -276,12 +260,11 @@ body::before {
     padding-top:0px !important;
 }
 .wordmark-2iDDfm:after {
-	content:'BrayanG691 based on Aurora v2.6 7w7';
+	content:'Aurora v2.6';
 	position: absolute !important;
 	left: 5px;
 	width: 100vw;
-	font-family:'ABeeZee';
-	font-style: italic;
+	font-family:'Satisfy';
 	color: rgba(255,255,255,0.8);
 	font-size: 19px;
 	font-weight:bold;
@@ -760,6 +743,16 @@ div[style*="width: 100%; height: 20px"] {
     background-size: 12%, cover;
     right:110px;
 }
+.channel-2QD9_O.selected-1HYmZZ .linkButtonIcon-Mlm5d6 {
+    color:#fff;
+}
+.channel-2QD9_O:hover .linkButtonIcon-Mlm5d6 {
+    color:#fff;
+}
+.channel-2QD9_O .linkButtonIcon-Mlm5d6,
+.linkButtonIcon-Mlm5d6 + .name-2WpE7M{
+    color:rgba(255,255,255,0.35);
+}
 .privateChannels-1nO12o .searchBar-6Kv8R2:hover:after {
     content:"Search Messages";
     color:#fff;
@@ -806,6 +799,35 @@ div[style*="width: 100%; height: 20px"] {
 }
 .emojiPicker-3m1S-j .scroller-3vODG7 {
     height:60vh !important;
+}
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    background:transparent !important;
+    height:100% !important;
+    width:100% !important;
+}
+.children-19S4PO:after {
+    display:none;
+}
+.container-1r6BKw {
+    background:transparent !important;
+    box-shadow:none !important;
+}
+#app-mount .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    background:var(--main-color) !important;
+}
+.divider-3FBTu8 {
+    display:none;
+}
+.akaBadge-1M-1Gw {
+    background:var(--main-color) !important;
+}
+/*search bar*/
+.iconContainer-O4O2CN {
+    width:18px;
+    height:18px;
+}
+.container-cMG81i {
+    background:transparent !important;
 }
 
 /*3.m. Invites*/
@@ -986,6 +1008,32 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 	background: var(--main-color-faded);
 	transition: 100ms all linear;
 }
+#app-mount .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+    background:var(--main-color) !important;
+}
+.wrapper-1ucjTd .content-3at_AU {
+	transition: 100ms background linear;
+}
+.wrapper-1ucjTd:hover .content-3at_AU {
+    background:var(--main-color-faded) !important;
+}
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX {
+    color:#fff;
+}
+.total-3tKGEB:after {
+    display:none;
+}
+.total-3tKGEB {
+    background:rgba(0,0,0,0.25);
+    width:50%;
+}
+.users-i_3-kL {
+    background:rgba(0,0,0,0.5);
+    width:50%;
+}
+.wrapper-pZmgj4 {
+    border-radius:5px;
+}
 
 /*4.b. Account Deatils Container*/
 .container-2Thooq {background:transparent !important;}
@@ -1106,6 +1154,15 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 .header-2o-2hj {
 	box-shadow:none !important; 
 	border-radius:5px !important;
+}
+.verified-1eC5dy {
+    color:var(--hover-color);
+}
+.theme-dark .iconBackgroundTierOne-2LhaMB,
+.theme-dark .iconBackgroundTierThree-3qw3JX,
+.theme-dark .iconBackgroundTierTwo-3bCmdc,
+.theme-dark .iconTierNone-3xOaeG {
+    color:var(--main-color-faded);
 }
 .bannerImage-1jOskm {
   -webkit-mask: linear-gradient(black, transparent 100%);
@@ -1236,6 +1293,41 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 	display:none;
 }
 
+.acronym-2mOFsV {
+    transition:250ms ease background;
+    background:rgba(0,0,0,0.5) !important;
+}
+.acronym-2mOFsV:hover {
+    background:var(--main-color) !important;
+}
+.listItem-2P_4kh {
+    margin-left:10px;
+}
+.pill-31IEus {
+    width:30px;
+    margin-left:-10px;
+}
+.item-2hkk8m {
+    margin-left:6px;
+    border-radius:50px;
+    width:8px !important;
+    background:var(--main-color);
+}
+.guildSeparator-3s64Iy {
+    display:none;
+}
+.homeIcon-tEMBK1 path {
+    display:none;
+}
+.button-OhfaWu {
+    background:transparent !important;
+}
+.listItem-2P_4kh:first-child .wrapper-sa6paO {
+    display:none;
+}
+.circleIconButton-jET_ig {
+    margin:0 !important;
+}
 /*5.b. Add/Create Guilds Button*/
 .guildsAdd-21_IdK {
 	background:rgba(0,0,0,0.5) !important;
@@ -1286,13 +1378,17 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 .homeIcon-1FoKUJ {
 	background: var(--main-color);
 	-webkit-mask: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSI0OCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTIxIDZoLTJ2OUg2djJjMCAuNTUuNDUgMSAxIDFoMTFsNCA0VjdjMC0uNTUtLjQ1LTEtMS0xem0tNCA2VjNjMC0uNTUtLjQ1LTEtMS0xSDNjLS41NSAwLTEgLjQ1LTEgMXYxNGw0LTRoMTBjLjU1IDAgMS0uNDUgMS0xeiIvPjwvc3ZnPg==');
-	-webkit-mask-size: 30px;
+	-webkit-mask-size: 95%;
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-position: center;
 	transition:250ms all ease;
 }
 
 /*5.e. Tooltips*/
+.da-tooltip {
+    background: var(--main-color) !important;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.5) !important;
+}
 @keyframes fadetop {
 	0% {
 		opacity: 0;
@@ -1331,6 +1427,18 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 		opacity: 0.9;
 		transform: none;
 	}
+}
+.tooltipTop-XDDSxx {
+    animation:fadetop 150ms ease;
+}
+.tooltipBottom-3ARrEK {
+    animation:fadebottom 150ms ease;
+}
+.tooltipRight-2JM5PQ {
+    animation:faderight 150ms ease;
+}
+.tooltipLeft-3EDOk1 {
+    animation:fadeleft 150ms ease;
 }
 .da-tooltip.da-tooltipTop, .bd-tooltip[x-placement^='top'] {animation: fadetop 150ms;}
 .da-tooltips .da-tooltip.da-right, .bd-tooltip[x-placement^='right'] {animation: faderight 150ms;}
@@ -1408,7 +1516,6 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 .circleIconButton-jET_ig {
 	background:rgba(0,0,0,0.5) !important;
 	border:none;
-  margin-left:10px;
 }
 
 /*5.c. Canary Unread Indicators*/
@@ -2926,6 +3033,16 @@ body #app-mouont .side-8zPYf6 .itemSelected-1qLhcL:hover {
 }
 .da-sidebar:hover {
 	width:300px !important;
+}
+.standardSidebarView-3F1I7i .side-8zPYf6 [style*="color: rgb(114, 137, 218)"] {
+    color:var(--hover-color) !important;
+}
+.standardSidebarView-3F1I7i .side-8zPYf6 [style*="background-color: rgb(114, 137, 218)"] {
+    background:var(--main-color) !important;
+    color:#fff !important;
+}
+.separator-gCa7yv {
+    background:rgba(255,255,255,0.05) !important;
 }
 .da-sidebar {
 	transition:.3s width ease;
