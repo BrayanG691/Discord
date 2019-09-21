@@ -155,10 +155,10 @@ body::before {
 /*Makes aurora compatible with monsters addons*/
 .theme-dark,
 .appMount-3VJmYg {
-	--primary-color: rgba(0,0,0,0.75);
-	--secondary-color: rgba(0,0,0,0.6);
-	--tertiary-color: rgba(0,0,0,0.4);
-	--quaternary-color: rgba(0,0,0,0.7);
+	--background-primary: none;
+        --background-secondary: rgba(0,0,0,0);
+        --background-tertiary: none;
+        --background-accent: none;
 }
 
 /*1.b. Spacing*/
