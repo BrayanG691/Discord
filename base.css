@@ -184,7 +184,8 @@ body::before {
 .divider-3gKybi,
 .typing-2GQL18,
 .typing-2GQL18,
-.guild-1EfMGQ .guildInner-3DSoA4 {
+.guild-1EfMGQ .guildInner-3DSoA4
+.panels-j1Uci_ da-panels {
 	background: transparent !important;
 }
 
@@ -1160,8 +1161,8 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 }
 .theme-dark .modal-yWgWj-,
 .theme-dark .footer-3rDWdC, 
-.theme-dark .da-panels
-.theme-dark .da-activityPanel 
+.theme-dark .da-.panels-j1Uci_,
+.theme-dark .da-activityPanel, 
 .theme-dark .da-container {
     background-color: rgba(24, 28, 37, 1);
 }
