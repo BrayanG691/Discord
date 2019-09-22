@@ -1160,8 +1160,8 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 }
 .theme-dark .modal-yWgWj-,
 .theme-dark .footer-3rDWdC, 
-.theme-dark .da-.panels-j1Uci_,
-.theme-dark .da-activityPanel, 
+.theme-dark .da-panels
+.theme-dark .da-activityPanel 
 .theme-dark .da-container {
     background-color: rgba(24, 28, 37, 1);
 }
@@ -4458,4 +4458,6 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 /*Made with ♥ by Tropical and the Derealised Community.
 Also, Thank you DevilBro, for letting me use his SVG's to improve the theme!*/
+
+
 
