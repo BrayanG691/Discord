@@ -184,8 +184,9 @@ body::before {
 .divider-3gKybi,
 .typing-2GQL18,
 .typing-2GQL18,
-.guild-1EfMGQ .guildInner-3DSoA4 {
-	background: transparent !important;
+.guild-1EfMGQ .guildInner-3DSoA4
+.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {
+           background: transparent !important;
 }
 
 /*1.d. Light Mode Blocker (Based on MasicoreLord's Light Theme blocker, taken with permission). */
@@ -4447,9 +4448,6 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .emptyIconStreamerMode-3RfWOW,
 .noResultsImage-JbSWtu {
     opacity:.6;
-	.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {
-  background-color: transparent;
-}
 	#app-mount .sidebarRegionScroller-3MXcoP,
 #app-mount .contentRegionScroller-26nc1e,
 #app-mount .gameLibrary-TTDw4Y .scroller-1IIF0A, 
