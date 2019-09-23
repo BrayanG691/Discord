@@ -205,7 +205,7 @@ body::before {
   padding-bottom:80px;
   border-radius: 5px;
 }
-.app-2rEoOp.vertical-V37hAW.theme-light .container-2Thooq > .noWrap-3jynv6 > .button-2b6hmh {
+.app-2rEoOp.vertical-V37hAW.theme-light .da-panels > .noWrap-3jynv6 > .button-2b6hmh {
   position: absolute;
   left: 50%;
   border-radius:3px;
@@ -218,7 +218,7 @@ body::before {
   box-shadow:0 0 12px black;
   opacity:1;
 }
-.app-2rEoOp.vertical-V37hAW.theme-light .container-2Thooq > .noWrap-3jynv6 > .button-2b6hmh:before {
+.app-2rEoOp.vertical-V37hAW.theme-light .da-panels > .noWrap-3jynv6 > .button-2b6hmh:before {
   position: absolute;
   content: "Turn On Dark Mode";
   padding:20px;
@@ -1036,7 +1036,7 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 }
 
 /*4.b. Account Deatils Container*/
-.container-2Thooq {background:transparent !important;}
+.da-panels {background:transparent !important;}
 .accountDetails-3k9g4n .username {
 	font-family:'satisfy';
 	font-weight:800 !important;
@@ -1058,23 +1058,23 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
   line-height: 18px;
   font-weight:500;
 }
-.container-2Thooq .avatar-3JE4B3 {
+.da-panels .avatar-3JE4B3 {
   transition:250ms all linear;
 }
-.da-channels:hover .container-2Thooq .avatar-3JE4B3 {
+.da-channels:hover .da-panels .avatar-3JE4B3 {
   transform:scale(1.1);
 }
-.container-2Thooq .button-2b6hmh {
+.da-panels .button-2b6hmh {
     transition:250ms ease all;
     border-radius:var(--media-roundness);
 }
-.container-2Thooq .button-2b6hmh:hover {
+.da-panels .button-2b6hmh:hover {
     background-color:rgba(255,255,255,0.1);
 }
-.container-2Thooq .button-2b6hmh:active {
+.da-panels .button-2b6hmh:active {
     background-color:var(--main-color-faded);
 }
-.container-2Thooq .avatar-3JE4B3:hover .da-online:after {
+.da-panels .avatar-3JE4B3:hover .da-online:after {
     content:'Online';
     position:absolute;
     color:#dcddde;
@@ -1088,7 +1088,7 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
     font-weight:500;
     box-shadow:0px 0px 20px rgba(0, 0, 0, 0.5);
 }
-.container-2Thooq .avatar-3JE4B3:hover .da-idle:after {
+.da-panels .avatar-3JE4B3:hover .da-idle:after {
     content:'Idle';
     position:absolute;
     color:#dcddde;
@@ -1102,7 +1102,7 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
     font-weight:500;
     box-shadow:0px 0px 20px rgba(0, 0, 0, 0.5);
 }
-.container-2Thooq .avatar-3JE4B3:hover .da-dnd:after {
+.da-panels .avatar-3JE4B3:hover .da-dnd:after {
     content:'DnD';
     position:absolute;
     color:#dcddde;
@@ -1116,7 +1116,7 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
     font-weight:500;
     box-shadow:0px 0px 20px rgba(0, 0, 0, 0.5);
 }
-.container-2Thooq .avatar-3JE4B3:hover .da-invisible:after {
+.da-panels .avatar-3JE4B3:hover .da-invisible:after {
     content:'Invisible';
     position:absolute;
     color:#dcddde;
@@ -1130,23 +1130,23 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
     font-weight:500;
     box-shadow:0px 0px 20px rgba(0, 0, 0, 0.5);
 }
-.container-2Thooq .avatar-3JE4B3:hover {
+.da-panels .avatar-3JE4B3:hover {
     opacity:1;
 }
-.container-2Thooq .avatar-3JE4B3 {
+.da-panels .avatar-3JE4B3 {
   transition:250ms all linear;
 }
-.da-channels:hover .container-2Thooq .avatar-3JE4B3 {
+.da-channels:hover .da-panels .avatar-3JE4B3 {
   transform:scale(1.1);
 }
-.container-2Thooq .button-2b6hmh {
+.da-panels .button-2b6hmh {
     transition:250ms ease all;
     border-radius:var(--media-roundness);
 }
-.container-2Thooq .button-2b6hmh:hover {
+.da-panels .button-2b6hmh:hover {
     background-color:rgba(255,255,255,0.1);
 }
-.container-2Thooq .button-2b6hmh:active {
+.da-panels .button-2b6hmh:active {
     background-color:var(--main-color-faded);
 }
 
@@ -4461,6 +4461,3 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 /*Made with ♥ by Tropical and the Derealised Community.
 Also, Thank you DevilBro, for letting me use his SVG's to improve the theme!*/
-
-
-
