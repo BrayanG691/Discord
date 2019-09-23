@@ -1162,8 +1162,10 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 .theme-dark .footer-3rDWdC, 
 .theme-dark .da-panels
 .theme-dark .da-activityPanel 
-.theme-dark .da-container {
-    background-color: rgba(24, 28, 37, 1);
+.theme-dark .da-container
+.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {
+  background-color: transparent; 
+    
 }
 .bannerImage-1jOskm {
   -webkit-mask: linear-gradient(black, transparent 100%);
