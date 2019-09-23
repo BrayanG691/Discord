@@ -184,8 +184,7 @@ body::before {
 .divider-3gKybi,
 .typing-2GQL18,
 .typing-2GQL18,
-.guild-1EfMGQ .guildInner-3DSoA4
-.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {
+.guild-1EfMGQ .guildInner-3DSoA4 {
            background: transparent !important;
 }
 
@@ -1161,11 +1160,12 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 }
 .theme-dark .modal-yWgWj-,
 .theme-dark .footer-3rDWdC, 
-.theme-dark .da-panels
-.theme-dark .da-activityPanel 
-.theme-dark .da-container
-.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {
-  background-color: rgba(24, 28, 37, 1);
+.theme-dark .da-panels,
+.theme-dark .da-activityPanel, 
+.theme-dark .da-container,
+.theme-dark .bodyInner-245q0L, 
+.theme-dark .footer-1fjuF6, {
+  background-color: transparent;
     
 }
 .bannerImage-1jOskm {
