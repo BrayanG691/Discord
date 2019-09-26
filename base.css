@@ -549,7 +549,7 @@ body::before {
 }
 .title-3qD0b-,
 .da-headerBar {
-	background:transparent !important;
+	background:rgba(0,0,0,0.4) !important;
 	box-shadow:none !important;
 }
 
