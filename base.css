@@ -1154,6 +1154,7 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 .header-2o-2hj {
 	box-shadow:none !important; 
 	border-radius:5px !important;
+	background-color:rgba(0,0,0,0.4);
 }
 .verified-1eC5dy {
     color:var(--hover-color);
